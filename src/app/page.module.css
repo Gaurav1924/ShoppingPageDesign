@@ -1,0 +1,31 @@
+.main{
+  min-height: 100vh;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 1rem; /* Adjust padding as needed */
+  padding-left: 1rem; /* Adjust padding as needed */
+  max-width: 100%; /* Adjust maximum width as needed */
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px; /* Adjust maximum width for small screens */
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px; /* Adjust maximum width for medium screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1440px; /* Adjust maximum width for large screens */
+  }
+}
+
+
+
